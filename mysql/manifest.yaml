@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: joindevops/mysql:v1.0
+        image: vikram1503/mysql:v1
         imagePullPolicy: Always
         volumeMounts:
         - name: mysql
